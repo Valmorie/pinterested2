@@ -1,0 +1,17 @@
+//stylesheet for bootstrap uses sass
+
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+
+//jumbotron
+$jumbotron-bg: #AD6DEE;
+
+
+//navbar and body
+
+$navbar-default-bg: 	#FFD9BF;
+
+
+$body-bg: #C2F0C2;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";

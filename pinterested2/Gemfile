@@ -6,8 +6,13 @@ gem 'rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
 ## not avaliable on heroku gem 'sqlite3'
 # Use SCSS for stylesheets
+#devise is the user authentication gem need to run rails generate divise:install after bundle
+gem 'devise', '~> 3.5.1'
 
 
+# the gem for bootstrap
+
+gem 'bootstrap-sass', '~> 3.3.4.1'
 
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
